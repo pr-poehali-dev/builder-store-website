@@ -83,11 +83,15 @@ const Index = () => {
           </p>
           
           <div className="grid md:grid-cols-3 gap-6">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="hover:shadow-lg transition-shadow cursor-pointer overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/4694bedf-693d-4630-999d-3d77ff57cef6/files/8ed792cc-2c02-4a68-97db-35147fbfbeed.jpg"
+                  alt="Крепеж"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <CardHeader>
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="Drill" size={28} className="text-accent" />
-                </div>
                 <CardTitle>Крепеж</CardTitle>
                 <CardDescription>Саморезы, гвозди, болты, дюбели</CardDescription>
               </CardHeader>
