@@ -172,6 +172,21 @@ const Index = () => {
                 </Button>
               </CardContent>
             </Card>
+
+            <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+              <CardHeader>
+                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Smartphone" size={28} className="text-accent" />
+                </div>
+                <CardTitle>Умный дом</CardTitle>
+                <CardDescription>Автоматизация, датчики, управление</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Button variant="link" className="p-0 h-auto text-accent">
+                  Смотреть товары →
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
