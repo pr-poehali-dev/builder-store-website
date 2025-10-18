@@ -15,7 +15,7 @@ const Index = () => {
           <nav className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <Icon name="Hammer" size={28} className="text-accent" />
-              <span className="text-xl font-bold">СтройМаркет</span>
+              <span className="text-xl font-bold">Дом Мечты</span>
             </div>
             <div className="hidden md:flex gap-6">
               <button onClick={() => scrollToSection('home')} className="hover:text-accent transition-colors">Главная</button>
@@ -229,7 +229,7 @@ const Index = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">О компании</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                СтройМаркет — надежный партнер в мире строительных материалов с 2005 года. 
+                Дом Мечты — надежный партнер в мире строительных материалов с 2005 года. 
                 Мы предлагаем широкий ассортимент качественных товаров для профессионального 
                 строительства и ремонта.
               </p>
@@ -408,7 +408,7 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Hammer" size={24} className="text-accent" />
-                <span className="text-lg font-bold">СтройМаркет</span>
+                <span className="text-lg font-bold">Дом Мечты</span>
               </div>
               <p className="text-sm opacity-80">
                 Надежный партнер в мире строительных материалов с 2005 года
@@ -446,7 +446,7 @@ const Index = () => {
           </div>
 
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm opacity-80">
-            <p>© 2005-2024 СтройМаркет. Все права защищены.</p>
+            <p>© 2005-2024 Дом Мечты. Все права защищены.</p>
           </div>
         </div>
       </footer>
