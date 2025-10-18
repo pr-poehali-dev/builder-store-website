@@ -86,10 +86,10 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow cursor-pointer">
               <CardHeader>
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="Brick" size={28} className="text-accent" />
+                  <Icon name="Drill" size={28} className="text-accent" />
                 </div>
-                <CardTitle>Стройматериалы</CardTitle>
-                <CardDescription>Кирпич, блоки, цемент, песок</CardDescription>
+                <CardTitle>Крепеж</CardTitle>
+                <CardDescription>Саморезы, гвозди, болты, дюбели</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button variant="link" className="p-0 h-auto text-accent">
