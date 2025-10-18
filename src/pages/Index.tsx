@@ -164,7 +164,7 @@ const Index = () => {
                   <Icon name="Home" size={28} className="text-accent" />
                 </div>
                 <CardTitle>Кровля и фасад</CardTitle>
-                <CardDescription>Черепица, сайдинг, водостоки</CardDescription>
+                <CardDescription>Черепица, сайдинг, водостоки, наборные элементы</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button variant="link" className="p-0 h-auto text-accent">
