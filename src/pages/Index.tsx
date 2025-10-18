@@ -278,7 +278,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">По городу</h3>
               <p className="text-muted-foreground mb-2">Доставка в день заказа</p>
-              <p className="text-2xl font-bold text-accent">от 500₽</p>
+              <p className="text-2xl font-bold text-accent">от 1000₽</p>
             </div>
 
             <div className="text-center">
