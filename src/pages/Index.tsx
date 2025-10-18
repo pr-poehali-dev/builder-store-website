@@ -183,7 +183,7 @@ const Index = () => {
             Полный спектр услуг для вашего удобства
           </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="bg-card p-6 rounded-lg shadow-sm">
               <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-4">
                 <Icon name="Truck" size={28} className="text-accent" />
@@ -198,14 +198,6 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Консультации</h3>
               <p className="text-muted-foreground">Помощь в подборе материалов</p>
-            </div>
-
-            <div className="bg-card p-6 rounded-lg shadow-sm">
-              <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-4">
-                <Icon name="CreditCard" size={28} className="text-accent" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Кредит</h3>
-              <p className="text-muted-foreground">Покупка в рассрочку 0%</p>
             </div>
 
             <div className="bg-card p-6 rounded-lg shadow-sm">
